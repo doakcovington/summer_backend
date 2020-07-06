@@ -11,3 +11,6 @@ lake = Category.create(name: "Lake")
 golf = Category.create(name: "Golf")
 
 Post.create(title: "4th of July", caption: "Full moon with fireworks", image_url: "https://imgur.com/gallery/B4jm4AC", category_id: lake.id)
+
+Category.destroy_all
+Post.destroy_all
